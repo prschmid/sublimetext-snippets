@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+self.assertIsNone(${1:x}, msg=${2:None})
+]]></content>
+    <tabTrigger>assertIsNone</tabTrigger>
+    <scope>source.python</scope>
+    <description>a is None</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+self.assertRegexpMatches(${1:s}, ${2:re}, msg=${3:None})
+]]></content>
+    <tabTrigger>assertRegexpMatches</tabTrigger>
+    <scope>source.python</scope>
+    <description>regex.search(s)</description>
+</snippet>

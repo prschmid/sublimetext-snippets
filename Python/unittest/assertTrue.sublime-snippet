@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+self.assertTrue(${1:x}, msg=${2:None})
+]]></content>
+    <tabTrigger>assertTrue</tabTrigger>
+    <scope>source.python</scope>
+    <description>bool(x) is True</description>
+</snippet>

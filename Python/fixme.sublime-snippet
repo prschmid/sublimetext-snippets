@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+# FIXME($TM_EMAIL): ${1:Fix me}
+]]></content>
+    <tabTrigger>fixme</tabTrigger>
+    <scope>source.python</scope>
+    <description># FIXME: </description>
+</snippet>

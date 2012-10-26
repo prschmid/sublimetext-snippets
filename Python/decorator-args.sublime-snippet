@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+def ${1:decorator}(${2:arg}):
+    """Insert docstring."""
+    def wrap(f):
+        @functools.wraps(f)
+        def wrapper(*args, **kwargs):
+            ${4:return f(*args, **kwargs)}
+        return wrapper
+    return wrap
+]]></content>
+	<tabTrigger>decorator-args</tabTrigger>
+	<scope>source.python</scope>
+	<description>@decorator(args):</description>
+</snippet>

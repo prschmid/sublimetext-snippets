@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+"""${1:Summary of function.}
+
+${2:Longer description.}
+
+Args:
+    ${3:arg: Some argument}
+Returns:
+    ${4:None}
+Raises:
+    ${5:Exception: An error occurred when...}
+"""
+]]></content>
+	<tabTrigger>doctype-function</tabTrigger>
+	<scope>source.python</scope>
+	<description>Funciton doctype comment</description>
+</snippet>

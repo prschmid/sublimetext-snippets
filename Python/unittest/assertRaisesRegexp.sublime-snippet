@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+self.assertRaisesRegexp(${1:exc}, ${2:re}, ${3:fun}, ${4:args})
+]]></content>
+    <tabTrigger>assertRaisesRegexp</tabTrigger>
+    <scope>source.python</scope>
+    <description>fun raises exc</description>
+</snippet>

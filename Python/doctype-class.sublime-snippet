@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+"""${1:Summary of class.}
+
+${2:Longer description.}
+
+Attributes:
+    ${3:attr: Some attribute}
+"""
+
+]]></content>
+    <tabTrigger>doctype-class</tabTrigger>
+    <scope>source.python</scope>
+    <description>Class doctype commen</description>
+</snippet>

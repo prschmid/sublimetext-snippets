@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+self.assertNotRegexpMatches(${1:s}, ${2:re}, msg=${3:None})
+]]></content>
+    <tabTrigger>assertNotRegexpMatches</tabTrigger>
+    <scope>source.python</scope>
+    <description>not regex.search(s)</description>
+</snippet>
