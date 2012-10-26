@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+self.assertAlmostEqual(${1:a}, ${2:b}, places=${3:7}, msg=${4:None}, delta=${5:None})
+]]></content>
+    <tabTrigger>assertAlmostEqual</tabTrigger>
+    <scope>source.python</scope>
+    <description>round(a - b, places) == 0</description>
+</snippet>

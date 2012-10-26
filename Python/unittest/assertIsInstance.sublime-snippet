@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+self.assertIsInstance(${1:obj}, ${2:cls}, msg=${3:None})
+]]></content>
+    <tabTrigger>assertIsInstance</tabTrigger>
+    <scope>source.python</scope>
+    <description>isinstance(obj, cls)</description>
+</snippet>

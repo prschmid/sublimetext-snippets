@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+"""${1:Summary of module.}
+
+${2:Longer description.}
+
+    ${3:Class/Function}: ${4:Short description}
+"""
+]]></content>
+    <tabTrigger>doctype-module</tabTrigger>
+    <scope>source.python</scope>
+    <description>Module doctype</description>
+</snippet>

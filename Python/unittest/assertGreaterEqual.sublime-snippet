@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+self.assertGreaterEqual(${1:a}, ${2:b}, msg=${3:None})
+]]></content>
+    <tabTrigger>assertGreaterEqual</tabTrigger>
+    <scope>source.python</scope>
+    <description>a >= b</description>
+</snippet>
