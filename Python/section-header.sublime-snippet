@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+# =============================================================================
+#
+# ${1:Section}
+#
+# =============================================================================
+]]></content>
+    <tabTrigger>section-header</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
