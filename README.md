@@ -8,11 +8,19 @@ Installation
 ------------
 
 To use the snippets, you will want to clone this repo in your Sublime Text 2 
-User directory. On OS X this can be found at
+User directory. You can find out where this is by opening Sublime Text 2, 
+going to 'Preferences', then 'Browse Packages', and seeing the path to Packages
+there.
+
+On OS X this should be:
 
 	~/Library/Application Support/Sublime Text 2/Packages/User
 
-In other words,
+On Ubuntu this should be:
+
+    ~/.config/sublime-text-2/Packages/User
+
+Using OS X as an example, you'd want to do this to checkout the snippets:
 
 	cd ~/Library/Application Support/Sublime Text 2/Packages/User
 	git clone https://github.com/prschmid/sublimetext-snippets.git Snippets
