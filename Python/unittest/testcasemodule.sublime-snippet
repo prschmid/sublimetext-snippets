@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+import unittest
+
+
+def suite():
+    """Define all the tests of a module."""
+    suite = unittest.TestSuite()
+    suite.addTest(unittest.makeSuite(${1:Class}TestCase))
+    return suite
+
+
+class ${1:Class}TestCase(unittest.TestCase):
+    def setUp(self):
+        ${2:pass}
+
+    def tearDown(self):
+        ${3:pass}
+
+    def test_${4:function}(self):
+        ${5:pass}
+
+
+if __name__ == '__main__':
+    unittest.main()
+
+]]></content>
+    <tabTrigger>TestCaseModule</tabTrigger>
+    <scope>source.python</scope>
+    <description>TestCase Module</description>
+</snippet>
